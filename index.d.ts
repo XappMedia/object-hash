@@ -70,7 +70,7 @@ declare namespace ObjectHash {
         /**
          * Write the information that would otherwise have been hashed to a stream.
          */
-        function writeToString(value, opts: Options, stream: any): void;
+        function writeToString(value: any, opts: Options, stream: any): void;
     }
 }
 
