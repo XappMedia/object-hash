@@ -75,5 +75,5 @@ declare namespace ObjectHash {
 }
 
 declare module "object-hash" {
-    export = ObjectHash;
+    export = ObjectHash.hash;
 }
